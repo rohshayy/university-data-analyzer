@@ -1,7 +1,4 @@
-# university-data-analyzer
-A statistical data cleaning tool for university student records, using Median Imputation to handle outliers.
-
-
+University Data Analyzer
 Project Overview
 This repository contains a Python-based data utility designed to process and clean academic performance records. The tool identifies missing entries within a student dataset and applies statistical imputation to ensure the data remains viable for further analysis. This project demonstrates the application of mathematical logic to practical data engineering challenges.
 
@@ -12,7 +9,7 @@ Statistical Integrity: The choice of Median over Mean was made to prioritize rob
 
 Automated Filtering: Following imputation, the script performs a secondary check to remove any records that remain critically incomplete, ensuring the final output is ready for high-fidelity reporting.
 
-Dynamic Reporting: Utilizes formatted string literals to generate clean, human-readable summaries of subject averages rounded to two decimal places.
+Dynamic Reporting: Utilizes formatted string literals (f-strings) to generate clean, human-readable summaries of subject averages rounded to two decimal places.
 
 Professional Background
 I am an MPhil in Mathematics with seven years of experience as a University Lecturer, specializing in teaching Calculus, Linear Algebra, Differential Equations, and Numerical Computing to Computer Science students.
@@ -26,13 +23,10 @@ Library: Pandas
 
 Data Format: CSV
 
-
 Usage Instructions
 Clone the repository to your local machine.
 Ensure student_scores.csv is located in the root directory.
 Execute the analysis script:
 analyzer.py
 
-Ensure student_scores.csv is located in the root directory.
-
-Execute the analysis script:
+The cleaned dataset will be exported as cleaned_student_data.csv.
