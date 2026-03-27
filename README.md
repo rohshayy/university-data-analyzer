@@ -25,8 +25,11 @@ Data Format: CSV
 
 Usage Instructions
 Clone the repository to your local machine.
-Ensure student_scores.csv is located in the root directory.
-Execute the analysis script:
-analyzer.py
 
+Ensure student_scores.csv is located in the root directory.
+
+Execute the analysis script:
+
+Bash
+python analyzer.py
 The cleaned dataset will be exported as cleaned_student_data.csv.
