@@ -24,3 +24,5 @@ This project is a key milestone in **Week 5 of a 16-week intensive transition** 
 2. Ensure `student_scores.csv` is located in the root directory.
 3. **Execute** the analysis script:
    analyzer.py
+
+   The cleaned dataset will be exported as cleaned_student_data.csv.
