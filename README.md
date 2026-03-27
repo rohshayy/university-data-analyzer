@@ -25,4 +25,4 @@ This project is a key milestone in **Week 5 of a 16-week intensive transition** 
 3. **Execute** the analysis script:
    analyzer.py
 
-   The cleaned dataset will be exported as cleaned_student_data.csv.
+## The cleaned dataset will be exported as cleaned_student_data.csv.
